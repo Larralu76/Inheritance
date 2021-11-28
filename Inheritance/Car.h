@@ -11,7 +11,7 @@ using namespace std;
 
 class Car : public Vehicle
 {
-	int num_doors;
+	int numDoors;
 
 public:
 	Car();
