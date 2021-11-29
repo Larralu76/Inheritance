@@ -20,6 +20,7 @@ int main()
 
 	cout << "Vehicle Program: " << endl;
 	cout << endl;
+
 	cout << "Vehicle: " << endl;
 
 	cout << "Enter the Manufacturer: ";
@@ -31,14 +32,15 @@ int main()
 	Vehicle vehicle(manny, yr);
 	vehicle.displayInfo();
 	cout << endl;
+	
 	cout << "Car: " << endl;
 	cin.clear();
 	cin.ignore(100, '\n');
 
-	cout << "Enter the Manfacturer: " << endl;
+	cout << "Enter the Manfacturer: ";
 	getline(cin, manny);
 
-	cout << "Enter the Year Built: " << endl;
+	cout << "Enter the Year Built: ";
 	cin >> yr;
 	
 	cout << "Enter the number of doors: ";
@@ -46,14 +48,15 @@ int main()
 
 	Car car(manny, yr, doors);
 	car.displayInfo();
+
 	cout << endl << "Truck: " << endl;
 	cin.clear();
 	cin.ignore(100, '\n');
 
-	cout << "Enter the Manfacturer: " << endl;
+	cout << "Enter the Manfacturer: ";
 	getline(cin, manny);
 
-	cout << "Enter the Year Built: " << endl;
+	cout << "Enter the Year Built: ";
 	cin >> yr;
 
 	cout << "Enter the Towing Capacity: ";
