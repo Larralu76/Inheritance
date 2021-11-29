@@ -16,9 +16,19 @@ Vehicle::Vehicle(string manny, int yrB)
 	yearBuilt = yrB;
 }
 
-string Vehicle::getManfact()
+string Vehicle::getManufact()
 {
 	return manufacturer;
+}
+
+int Vehicle::getYear()
+{
+	return yearBuilt;
+}
+
+void Vehicle::setManufact(string manny)
+{
+	manufacturer = manny;
 }
 
 void Vehicle::setYear(int year)

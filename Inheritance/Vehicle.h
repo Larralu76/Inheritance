@@ -17,6 +17,7 @@ public:
 	string getManufact();
 	int getYear();
 	void setManufact(string sM);
+	void setYear(int sy);
 	void displayInfo();
 };
 
